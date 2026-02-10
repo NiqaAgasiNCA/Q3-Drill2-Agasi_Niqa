@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example 14</title>
+    <style>
+            body {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 18px;
+      background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqoW1FfI_cLjUUIv2wYVaDUQSKJpSEsiLtig&s');
+      background-size: cover;
+      background-attachment: fixed;
+      color: black;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+         .section-title {
+      background-color: palevioletred;
+      color: white;
+      font-weight: bold;
+      text-align: center;
+      padding: 10px;
+      font-size: 24px;
+      font-family: Arial, sans-serif;
+      border-radius: 4px;
+      margin: 40px auto 20px;
+      width: 80%;
+         }
+    </style>
+</head>
+<body>
+    <h2 class="section-title">Compute Area of Triangle</h2>
+    <form>
+        <input type="number" id="base" placeholder="Base"><br>
+        <input type="number" id="height" placeholder="Height"><br>
+        <input type="button" onmouseover="compute_area()" value="compute">
+    </form>
+    <div id="output"></div>
+    <script src="main.js"></script>
+</body>
+</html>
